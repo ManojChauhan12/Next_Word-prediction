@@ -4,7 +4,7 @@ import pickle
 from preprocessing.preprocess import preprocess_pipeline
 
 # CHANGE MODEL HERE
-MODEL_NAME = "gru"   # rnn, lstm, bilstm, gru
+MODEL_NAME = "bilstm"   # rnn, lstm, bilstm, gru
 
 
 # Import model dynamically
@@ -92,7 +92,7 @@ import matplotlib.pyplot as plt
 from preprocessing.preprocess import preprocess_pipeline
 
 #CHANGE MODEL HERE
-MODEL_NAME = "rnn"    # rnn, lstm, bilstm, gru, transformer
+MODEL_NAME = "bilstm"    # rnn, lstm, bilstm, gru, transformer
 
  
 if MODEL_NAME == "rnn":
